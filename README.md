@@ -5,6 +5,8 @@
 
 # Buscosint
 
+![buscOSINT](img/buscosint.v1.banner.png)
+
 > Un buscador de recursos y herramientas para estudiantes e investigadores en el campo de la *Inteligencia de Fuentes Abiertas* (**`OSINT`**).
 
 
