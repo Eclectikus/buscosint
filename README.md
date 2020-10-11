@@ -11,5 +11,7 @@
 
 En esta fase del proyecto las vías principales de desarrollo son las siguientes:
 
-- La creación de una extensa base de datos de recursos y herramientas OSINT
-- El diseño de prototipos usables e inmediatamente disponibles para la comunidad.
+- La creación de una extensa base de datos de recursos y herramientas **OSINT**
+- El diseño de prototipos usables e inmediatamente disponibles para la comunidad
+- La recopilación de ideas y mejoras en cualquier aspecto de **buscOSINT**
+
