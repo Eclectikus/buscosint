@@ -7,5 +7,9 @@
 
 > Un buscador de recursos y herramientas dirigido a estudiantes, aficionados e investigadores en el campo de la *Inteligencia de Fuentes Abiertas* (**`OSINT`**).
 
-![buscOSINT](img/buscosint.v1.banner.png)
+[![buscOSINT](img/buscosint.v1.banner.png)](https://buscosint.netlify.app/)
 
+En esta fase del proyecto las vías principales de desarrollo son las siguientes:
+
+- La creación de una extensa base de datos de recursos y herramientas OSINT
+- El diseño de prototipos usables e inmediatamente disponibles para la comunidad.
