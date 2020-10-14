@@ -14,5 +14,6 @@ En esta fase del proyecto las vías principales de desarrollo son las siguientes
 - Creación de una extensa base de datos de recursos y herramientas **OSINT**
 - Diseño de prototipos usables e inmediatamente disponibles para la comunidad:
   - [V.0.1](https://buscosint.netlify.app/es/buscosintv0.1/buscosint01)
-  - [V.0.2](https://buscosint.netlify.app/es/buscosintv0.2/buscosint02) 
+  - [V.0.2](https://buscosint.netlify.app/es/buscosintv0.2/buscosint02)
+  - [V.0.3](https://buscosint.netlify.app/es/buscosintv0.3/buscosint03)
 - Recopilación de ideas y mejoras en cualquier aspecto de **buscOSINT**
