@@ -152,7 +152,8 @@ tipos <- count(tosint,Tipo) # Cuenta de tipos de enlace
 
 set.seed(333) # por reproducibilidad 
 
-wordcloud(words = tipos$Tipo, freq = tipos$n, min.freq = 1, scale = c(2.4,0.45), max.words=60, random.order=FALSE, rot.per=0, colors = brewer.pal(10, "Spectral"))
+wordcloud(words = tipos$Tipo, freq = tipos$n, min.freq = 1, scale = c(2.4,0.45),
+max.words=60, random.order=FALSE, rot.per=0, colors = brewer.pal(10, "Spectral"))
 
 ```
 
@@ -193,7 +194,8 @@ Rutinas de transferencia de ficheros desde el **`repositorio privado`** (en este
 direl <- "D:/Developer/OSINT/hackathon2020/static/es/buscosintV0.4/buscosint04_files/figure-html"
 cloudpng <- "cloud-1.png"
 direr <- "D:/Developer/misWEBS/buscosint/img"
-file.copy(paste(direl,cloudpng, sep = "/"), paste(direr,cloudpng, sep = "/"), overwrite = TRUE, recursive = FALSE, copy.mode = TRUE, copy.date = TRUE)
+file.copy(paste(direl,cloudpng, sep = "/"), paste(direr,cloudpng, sep = "/"),
+overwrite = TRUE, recursive = FALSE, copy.mode = TRUE, copy.date = TRUE)
 ```
 
 ```{r picpirul, include=FALSE}
@@ -201,5 +203,6 @@ file.copy(paste(direl,cloudpng, sep = "/"), paste(direr,cloudpng, sep = "/"), ov
 direl <- "D:/Developer/OSINT/hackathon2020/static/es/buscosintV0.4/buscosint04_files/figure-html"
 cloudpng <- "piruletas-1.png"
 direr <- "D:/Developer/misWEBS/buscosint/img"
-file.copy(paste(direl,cloudpng, sep = "/"), paste(direr,cloudpng, sep = "/"), overwrite = TRUE, recursive = FALSE, copy.mode = TRUE, copy.date = TRUE)
+file.copy(paste(direl,cloudpng, sep = "/"), paste(direr,cloudpng, sep = "/"),
+overwrite = TRUE, recursive = FALSE, copy.mode = TRUE, copy.date = TRUE)
 ```
