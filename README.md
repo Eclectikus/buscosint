@@ -1,7 +1,6 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0eeb3906-f3d9-44d6-8751-ee2dd7d6990f/deploy-status)](https://buscosint.netlify.app/)
 ![Estado](https://img.shields.io/badge/-Trabajo%20en%20proceso-orange.svg)
-[![Version](https://img.shields.io/badge/buscOSINT-V.0.1-green)](https://buscosint.netlify.app/es/buscosintv0.1/buscosint01)
-[![Version](https://img.shields.io/badge/buscOSINT-V.0.2-green)](https://buscosint.netlify.app/es/buscosintv0.2/buscosint02)
-[![Version](https://img.shields.io/badge/buscOSINT-V.0.3-green)](https://buscosint.netlify.app/es/buscosintv0.3/buscosint03)
+[![Version](https://img.shields.io/badge/buscOSINT-V.0.4-green)](https://buscosint.netlify.app/es/buscosintv0.4/buscosint04)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 # Buscosint
