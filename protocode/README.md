@@ -95,7 +95,7 @@ datatable(tosint,
 
 ### Tabla de tópicos
 
-```{r}
+```{r tipos}
 # Enlace a tabla 
 tablink <- "https://raw.githubusercontent.com/Eclectikus/buscosint/main/data/buscosintLIST.csv"
 
