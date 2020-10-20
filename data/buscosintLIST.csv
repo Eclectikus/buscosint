@@ -1220,4 +1220,91 @@ Symbaloo,http://www.symbaloo.com,Páginas de inicio
 uStart.org,http://www.ustart.org,Páginas de inicio
 Yourport,http://www.yourport.com,Páginas de inicio
 Zenstart,http://www.zenstart.com,Páginas de inicio
-
+dplyr,https://dplyr.tidyverse.org/,Minería de datos – R
+purrr,https://purrr.tidyverse.org/,Minería de datos – R
+readxl,https://readxl.tidyverse.org/,Minería de datos – R
+readr,https://readr.tidyverse.org/,Minería de datos – R
+vroom,https://vroom.r-lib.org/,Minería de datos – R
+rio,https://cran.r-project.org/web/packages/rio,Minería de datos – R
+tidyxl,https://nacnudus.github.io/tidyxl/,Minería de datos – R
+Hmisc,https://cran.r-project.org/web/packages/Hmisc,Minería de datos – R
+datapasta,https://github.com/MilesMcBain/datapasta,Minería de datos – R
+sqldf,https://github.com/ggrothendieck/sqldf,Minería de datos – R
+jsonlite,https://www.opencpu.org/posts/jsonlite-a-smarter-json-encoder/,Minería de datos – R
+XML,https://cran.r-project.org/package=XML,Minería de datos – R
+httr,https://httr.r-lib.org/,Minería de datos – R
+quantmod,https://httr.r-lib.org/articles/quickstart.html,Minería de datos – R
+tidyquant,https://business-science.github.io/tidyquant/,Minería de datos – R
+rvest,http://rvest.tidyverse.org/,Minería de datos – R
+tidyr,https://tidyr.tidyverse.org/,Minería de datos – R
+splitstackshape,https://github.com/mrdwab/splitstackshape,Minería de datos – R
+magrittr,https://magrittr.tidyverse.org/,Minería de datos – R
+validate,https://github.com/data-cleaning/validate,Minería de datos – R
+testthat,https://cran.r-project.org/web/packages/testthat,Minería de datos – R
+data.table,http://r-datatable.com/,Minería de datos – R
+stringr,https://stringr.tidyverse.org/,Minería de datos – R
+lubridate,https://lubridate.tidyverse.org/,Minería de datos – R
+DataExplorer,https://boxuancui.github.io/DataExplorer/,Minería de datos – R
+zoo,https://cran.r-project.org/web/packages/zoo,Minería de datos – R
+tsbox,https://www.tsbox.help/,Minería de datos – R
+knitr,https://yihui.org/knitr/,Minería de datos – R
+remedy,https://thinkr-open.github.io/remedy/,Minería de datos – R
+officeR,https://davidgohel.github.io/officer/,Minería de datos – R
+listviewer,https://cran.r-project.org/web/packages/listviewer,Minería de datos – R
+DT,https://rstudio.github.io/DT/,Minería de datos – R
+ggplot2,https://ggplot2.tidyverse.org/,Visualización de datos – R
+patchwork,https://github.com/thomasp85/patchwork,Visualización de datos – R
+ggforce,https://ggforce.data-imaginist.com/,Visualización de datos – R
+esquisse,https://dreamrs.github.io/esquisse,Visualización de datos – R
+dygraphs,https://rstudio.github.io/dygraphs/index.html,Visualización de datos – R
+googleVis,https://github.com/mages/googleVis,Visualización de datos – R
+metricsgraphics,https://cran.r-project.org/web/packages/metricsgraphics/,Visualización de datos – R
+taucharts,https://github.com/hrbrmstr/taucharts,Visualización de datos – R
+RColorBrewer,https://cran.r-project.org/web/packages/RColorBrewer,Visualización de datos – R
+paletteer,https://emilhvitfeldt.github.io/paletteer/,Visualización de datos – R
+sf,https://r-spatial.github.io/sf/,Visualización de datos – R
+leaflet,https://rstudio.github.io/leaflet/,Mapas – R
+ggmap,https://github.com/dkahle/ggmap,Mapas – R
+rgeocodio,https://github.com/hrbrmstr/rgeocodio,Mapas – R
+tmap,https://github.com/mtennekes/tmap,Mapas – R
+colourpicker,https://github.com/daattali/colourpicker,Mapas – R
+mapsapi,https://cran.r-project.org/web/packages/mapsapi/vignettes/intro.html,Mapas – R
+tidycensus,https://walkerke.github.io/tidycensus/,Minería de datos – R
+glue,https://glue.tidyverse.org/,Minería de datos – R
+googleanalyticsR,https://code.markedmondson.me/googleAnalyticsR/,Analítica WEB – R
+RSiteCatalyst,https://randyzwitch.com/rsitecatalyst/,Analítica WEB – R
+roxygen2,https://cran.r-project.org/web/packages/roxygen2,Analítica WEB – R
+shiny,https://shiny.rstudio.com/,Visualización de datos – R
+flexdashboard,https://rmarkdown.rstudio.com/flexdashboard/,Visualización de datos – R
+openxlsx,https://github.com/awalker89/openxlsx,Minería de datos – R
+gmodels,https://cran.r-project.org/web/packages/gmodels/index.html,Minería de datos – R
+janitor,https://cran.r-project.org/web/packages/janitor/index.html,Minería de datos – R
+car,https://cran.r-project.org/web/packages/car,Minería de datos – R
+rcdimple,https://github.com/timelyportfolio/rcdimple,Minería de datos – R
+scales,https://scales.r-lib.org/,Visualización de datos – R
+plotly,https://plot.ly/r/,Visualización de datos – R
+highcharter,https://jkunst.com/highcharter/,Visualización de datos – R
+profvis,https://rstudio.github.io/profvis/,Visualización de datos – R
+tidytext,https://juliasilge.github.io/tidytext/,Minería de datos – R
+diffobj,https://cran.r-project.org/web/packages/diffobj,Minería de datos – R
+prophet,https://cran.r-project.org/web/packages/prophet,Minería de datos – R
+feather,https://blog.rstudio.org/2016/03/29/feather/,Minería de datos – R
+fst,https://cran.r-project.org/web/packages/fst,Minería de datos – R
+googleAuthR,https://code.markedmondson.me/googleAuthR/,Minería de datos – R
+devtools,https://devtools.r-lib.org/,Herramientas – R
+remotes,https://remotes.r-lib.org/,Herramientas – R
+githubinstall,http://hoxo-m.github.io/githubinstall/,Herramientas – R
+installr,https://github.com/talgalili/installr/,Herramientas – R
+reinstallr,https://github.com/calligross/reinstallr,Herramientas – R
+usethis,https://usethis.r-lib.org/,Herramientas – R
+here,https://here.r-lib.org/,Mapas – R
+pacman,https://cran.r-project.org/web/packages/pacman,Herramientas – R
+plumber,https://www.rplumber.io/,Herramientas – R
+echarts4r,https://cran.r-project.org/web/packages/echarts4r,Visualización de datos – R
+dataCompareR,https://github.com/capitalone/dataCompareR,Minería de datos – R
+cloudyR project,https://cloudyr.github.io/,Herramientas – R
+flyio,https://github.com/socialcopsdev/flyio/,Minería de datos – R
+geofacet,https://hafen.github.io/geofacet,Visualización de datos – R
+reticulate,https://rstudio.github.io/reticulate/,Herramientas – R
+slackr,https://github.com/hrbrmstr/slackr,Herramientas – R
+beepr,https://cran.r-project.org/web/packages/beepr,Herramientas – R
