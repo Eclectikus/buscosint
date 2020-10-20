@@ -5,16 +5,18 @@
 
 # Buscosint
 
-> Un buscador de recursos y herramientas dirigido a estudiantes, aficionados e investigadores en el campo de la *Inteligencia de Fuentes Abiertas* (**`OSINT`**).
+> Un buscador de recursos y herramientas de *inteligencia de fuentes abiertas* (**`OSINT`**) dirigido a estudiantes, aficionados e investigadores.
 
 [![buscOSINT](img/buscosint.v1.banner.png)](https://buscosint.netlify.app/)
 
 En esta fase del proyecto las vías principales de desarrollo son las siguientes:
 
-- Creación de una extensa base de datos de recursos y herramientas **OSINT**
+- Creación de una extensa base de datos de recursos y herramientas **OSINT**, con especial atención al ámbito hispano.
 - Diseño de prototipos usables e inmediatamente disponibles para la comunidad:
   - [`V.0.1`](https://buscosint.netlify.app/es/buscosintv0.1/buscosint01)
   - [`V.0.2`](https://buscosint.netlify.app/es/buscosintv0.2/buscosint02)
   - [`V.0.3`](https://buscosint.netlify.app/es/buscosintv0.3/buscosint03)
   - [**`V.0.4`**](https://buscosint.netlify.app/es/buscosintv0.4/buscosint04)
-- Recopilación de ideas y mejoras en cualquier aspecto de **buscOSINT**
+- Recopilación de ideas y mejoras en cualquier aspecto de **buscOSINT**.
+
+:gear: Si estás interesado en este proyecto visita la sección [**`Cómo colaborar`**](https://github.com/Eclectikus/buscosint/wiki/C%C3%B3mo-colaborar).
