@@ -24,7 +24,7 @@ A continuación los fragmentos de código ([**`chunks`**](https://rmarkdown.rstu
 
 Algunas pueden no ser imprescindibles para correr el código pero pueden ser útiles para el pre-proceso, importación, etc...
 
-```{r setup, include=FALSE}
+```R
 library(tidyverse) # ggplot, dplyr...
 library(magrittr) # %>%
 library(knitr) # Dynamic report generation with R
@@ -55,7 +55,7 @@ library(wordcloud2)
 
 ### buscOSINT
 
-```{r buscosint}
+```R
 ## Actualización de la lista vía GIST
 gistact <- "https://raw.githubusercontent.com/Eclectikus/buscosint/main/data/buscosintLIST.csv"
 
@@ -95,7 +95,7 @@ datatable(tosint,
 
 ### Tabla de tópicos
 
-```{r tipos}
+```R
 # Enlace a tabla 
 tablink <- "https://raw.githubusercontent.com/Eclectikus/buscosint/main/data/buscosintLIST.csv"
 
@@ -142,7 +142,7 @@ datatable(tipos, rownames = FALSE,
 
 ### Nube de etiquetas
 
-```{r cloud, echo=FALSE, dpi=300, fig.width=6, fig.height=6}
+```R
 tablink <- "https://raw.githubusercontent.com/Eclectikus/buscosint/main/data/buscosintLIST.csv"
 
 ## Importar a data.frame
@@ -159,7 +159,7 @@ max.words=60, random.order=FALSE, rot.per=0, colors = brewer.pal(10, "Spectral")
 
 ### Gráfico de piruletas
 
-```{r piruletas, echo=FALSE, dpi=300, fig.width=6, fig.height=6}
+```R
 # Enlace a tabla
 tablink <- "https://raw.githubusercontent.com/Eclectikus/buscosint/main/data/buscosintLIST.csv"
 
@@ -189,7 +189,7 @@ tipos %>%
 
 Rutinas de transferencia de ficheros desde el **`repositorio privado`** (en este caso local) a este repositorio público ([**`/img`**](https://github.com/Eclectikus/buscosint/tree/main/img)).
 
-```{r piccloud, include=FALSE}
+```R
 ## Files
 direl <- "D:/Developer/OSINT/hackathon2020/static/es/buscosintV0.4/buscosint04_files/figure-html"
 cloudpng <- "cloud-1.png"
@@ -198,7 +198,7 @@ file.copy(paste(direl,cloudpng, sep = "/"), paste(direr,cloudpng, sep = "/"),
 overwrite = TRUE, recursive = FALSE, copy.mode = TRUE, copy.date = TRUE)
 ```
 
-```{r picpirul, include=FALSE}
+```R
 ## Files
 direl <- "D:/Developer/OSINT/hackathon2020/static/es/buscosintV0.4/buscosint04_files/figure-html"
 cloudpng <- "piruletas-1.png"
