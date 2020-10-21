@@ -25,4 +25,5 @@ w.document.write(table);
 make_table()
 ```
 
-El resultado no es perfecto, hay falsos positivos, problemas de formato, etc... pero en unos pocos minutos tienes capturados más de 40 enlaces, muchos de ellos relevantes, que son fácilmente convertibles a un fichero **`.csv`**.
+El resultado no es perfecto, hay falsos positivos, problemas de formato, etc... pero en unos pocos minutos tienes capturados más de 40 enlaces, muchos de ellos relevantes, que son fácilmente convertibles a un fichero **`.csv`** (ver el resultado en [wikiOSINT.csv
+](https://github.com/Eclectikus/buscosint/blob/main/scripts/wikiOSINT.csv)).
