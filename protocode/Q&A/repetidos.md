@@ -1,4 +1,4 @@
-Rutina para eliminar duplicados
+Rutina para chequear duplicados
 ================
 [buscOSINT](https://github.com/Eclectikus/buscosint)
 
@@ -12,7 +12,7 @@ contemplaciones.
 En tablas como esta es un poco más delicado porque se pueden presentar
 casos en los que registros repetidos podrían ser legítimos. Por ejemplo,
 si introducimos el término **`canva`** en el buscador obtenemos estos
-registros (a finales de octubre 2020)
+registros (a finales de *octubre 2020*).
 
 ![Términos
 repetidos](https://raw.githubusercontent.com/Eclectikus/buscosint/main/img/repes1.png)
@@ -21,11 +21,13 @@ En este caso se podrían considerar legítimos las tres instancias del
 sitio, quizá el tercero sea redundante, la decisión quedaría para *el
 administrador*.
 
-Para ayudar en la detección de registros duplicados se han escrito las
+Para ayudar en la detección de registros duplicados se utilizan las
 siguientes líneas de código. Son rudimentarias, y de momento requieren
 la inspección manual de los listados que proporcionan, una acción
 indispensable especialmente tras subir en bloque centenares de enlaces,
-como ha sido el caso de la primera fase del proyecto.
+como ha sido el caso de la primera fase del proyecto. Idealmente con el
+tiempo se dará con un algoritmo más elegante y eficaz, pero de momento,
+aquí quedan estas líneas por si sirven a alguien.
 
 ### Chequeo de duplicados (Nombres)
 
