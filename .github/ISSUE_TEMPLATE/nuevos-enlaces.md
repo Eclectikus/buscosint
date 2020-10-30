@@ -11,13 +11,13 @@ assignees: ''
 
 ## Enlaces individuales
 
-Si quieres enriquecer la lista aportando **un enlace concreto** a **`BuscOSINT`**, simplemente escríbelo aquí según el siguiente formato (separado por comas y sin espacios):
+Si quieres enriquecer la(s) lista(s) aportando **un enlace concreto** a **`BuscOSINT`**, simplemente escríbelo aquí según el siguiente formato (separado por comas y sin espacios):
 
 - Título,Enlace,Tipo
 
 ## Grupos de enlaces
 
-Si quieres enriquecer la lista aportando **un grupo de enlaces** a **`BuscOSINT`**, sigue uno de estos caminos:
+Si quieres enriquecer la(s) lista(s) aportando **un grupo de enlaces** a **`BuscOSINT`**, sigue uno de estos caminos:
 
 - Si son pocos, puedes simplemente añadirlos directamente aquí siguiendo el formato definido en el punto anterior (Título,Enlace,Tipo - separado por comas y sin espacios).
 - Si son muchos puedes enlazar a un fichero CSV que esté disponible en la red, o mandarnos el fichero **`.CSV`** respetando el siguiente formato (Título,Enlace,Tipo - separado por comas y sin espacios y en codificación **`UTF-8`**).
