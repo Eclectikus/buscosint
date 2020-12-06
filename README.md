@@ -16,7 +16,8 @@ En esta fase del proyecto las vías principales de desarrollo son las siguientes
   - [`V.0.1`](https://buscosint.netlify.app/es/buscosintv0.1/buscosint01)
   - [`V.0.2`](https://buscosint.netlify.app/es/buscosintv0.2/buscosint02)
   - [`V.0.3`](https://buscosint.netlify.app/es/buscosintv0.3/buscosint03)
-  - [**`V.0.4`**](https://buscosint.netlify.app/es/buscosintv0.4/buscosint04)
+  - [`V.0.4`](https://buscosint.netlify.app/es/buscosintv0.4/buscosint04)
+  - [**`V.0.5`**](https://buscosint.netlify.app/es/buscosintv0.5/buscosint05)
 - Recopilación de ideas y mejoras en cualquier aspecto de **buscOSINT**.
 
 :gear: Si estás interesado en este proyecto visita la sección [**`Cómo colaborar`**](https://github.com/Eclectikus/buscosint/wiki/C%C3%B3mo-colaborar).
