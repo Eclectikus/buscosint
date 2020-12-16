@@ -2,6 +2,12 @@ Rutina para chequear duplicados
 ================
 [buscOSINT](https://github.com/Eclectikus/buscosint)
 
+  - [Control de duplicados](#control-de-duplicados)
+      - [Chequeo de duplicados
+        (Nombres)](#chequeo-de-duplicados-nombres)
+      - [Chequeo de duplicados
+        (Enlaces)](#chequeo-de-duplicados-enlaces)
+
 ## Control de duplicados
 
 Uno de los fallos a evitar en las tablas son los registros duplicados.
