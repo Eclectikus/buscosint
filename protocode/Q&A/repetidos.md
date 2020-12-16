@@ -5,21 +5,25 @@ Rutina para chequear duplicados
 ## Control de duplicados
 
 Uno de los fallos a evitar en las tablas son los registros duplicados.
-Esta es una norma general de puro *sentido común*, y es fácil diseñar
-una rutina que elimine las **`filas`** duplicadas sin mayores
+Esta es una norma general, de puro *sentido común*, y es muy fácil
+diseñar una rutina que elimine las **`filas`** duplicadas sin mayores
 contemplaciones.
 
-En tablas como esta es un poco más delicado porque se pueden presentar
-casos en los que registros repetidos podrían ser legítimos. Por ejemplo,
-si introducimos el término **`canva`** en el buscador obtenemos estos
-registros (a finales de *octubre 2020*).
+Sin embargo en tablas como esta es un poco más delicado porque se pueden
+presentar casos en los que los registros repetidos son perfectamente
+legítimos. Por ejemplo, si introducimos el término **`canva`** en el
+buscador obtenemos estos registros (a finales de *octubre 2020*).
 
 ![Términos
 repetidos](https://raw.githubusercontent.com/Eclectikus/buscosint/main/img/repes1.png)
 
 En este caso se podrían considerar legítimos las tres instancias del
-sitio, quizá el tercero sea redundante, la decisión quedaría para *el
-administrador*.
+sitio en la tabla, la primera enlaza a una herramienta específica, y la
+segunda y tercera son el mismo enlace pero clasificados en dos
+**`tipos`** diferentes, quedando la eliminación a criterio del
+*administrador*.
+
+-----
 
 Para ayudar en la detección de registros duplicados se utilizan las
 siguientes líneas de código. Son rudimentarias, y de momento requieren
@@ -45,7 +49,7 @@ n <- nrow(na.omit(RecDupr))
 cat(paste("**Recursos repetidos:**", n))
 ```
 
-**Recursos repetidos:** 30
+**Recursos repetidos:** 31
 
 ``` r
 knitr::kable(RecDupr)
@@ -105,7 +109,7 @@ AIE
 
 <td style="text-align:left;">
 
-49
+52
 
 </td>
 
@@ -127,7 +131,7 @@ Ask
 
 <td style="text-align:left;">
 
-65
+68
 
 </td>
 
@@ -149,7 +153,7 @@ Banco Mundial
 
 <td style="text-align:left;">
 
-77
+81
 
 </td>
 
@@ -171,7 +175,7 @@ Bibsonomy
 
 <td style="text-align:left;">
 
-121
+125
 
 </td>
 
@@ -193,7 +197,7 @@ Canva
 
 <td style="text-align:left;">
 
-155
+161
 
 </td>
 
@@ -215,7 +219,7 @@ Clarify
 
 <td style="text-align:left;">
 
-212
+218
 
 </td>
 
@@ -237,7 +241,7 @@ Diigo
 
 <td style="text-align:left;">
 
-270
+276
 
 </td>
 
@@ -259,7 +263,7 @@ Evernote
 
 <td style="text-align:left;">
 
-316
+322
 
 </td>
 
@@ -281,7 +285,7 @@ Flipboard
 
 <td style="text-align:left;">
 
-410
+417
 
 </td>
 
@@ -303,7 +307,7 @@ GoogleDocs
 
 <td style="text-align:left;">
 
-435
+442
 
 </td>
 
@@ -325,7 +329,7 @@ Hashtagify
 
 <td style="text-align:left;">
 
-572
+580
 
 </td>
 
@@ -347,7 +351,7 @@ LibreOffice
 
 <td style="text-align:left;">
 
-579
+587
 
 </td>
 
@@ -369,7 +373,7 @@ Linkedin
 
 <td style="text-align:left;">
 
-643
+653
 
 </td>
 
@@ -391,7 +395,7 @@ Microsoft OneNote
 
 <td style="text-align:left;">
 
-659
+669
 
 </td>
 
@@ -413,7 +417,7 @@ MS Office
 
 <td style="text-align:left;">
 
-679
+689
 
 </td>
 
@@ -435,7 +439,7 @@ Netvibes
 
 <td style="text-align:left;">
 
-709
+719
 
 </td>
 
@@ -457,7 +461,7 @@ OCDE
 
 <td style="text-align:left;">
 
-771
+783
 
 </td>
 
@@ -479,7 +483,29 @@ PasteLert
 
 <td style="text-align:left;">
 
-883
+814
+
+</td>
+
+<td style="text-align:left;">
+
+Plotly
+
+</td>
+
+<td style="text-align:right;">
+
+2
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+897
 
 </td>
 
@@ -501,7 +527,7 @@ Riffle
 
 <td style="text-align:left;">
 
-940
+955
 
 </td>
 
@@ -523,7 +549,7 @@ SESRIC
 
 <td style="text-align:left;">
 
-950
+965
 
 </td>
 
@@ -545,7 +571,7 @@ Silobreaker
 
 <td style="text-align:left;">
 
-1014
+1029
 
 </td>
 
@@ -567,7 +593,7 @@ start.me
 
 <td style="text-align:left;">
 
-1023
+1038
 
 </td>
 
@@ -589,7 +615,7 @@ StoryMap
 
 <td style="text-align:left;">
 
-1024
+1039
 
 </td>
 
@@ -611,7 +637,7 @@ StoryMaps
 
 <td style="text-align:left;">
 
-1031
+1046
 
 </td>
 
@@ -633,7 +659,7 @@ Sway
 
 <td style="text-align:left;">
 
-1112
+1128
 
 </td>
 
@@ -655,7 +681,7 @@ TweetMap
 
 <td style="text-align:left;">
 
-1140
+1156
 
 </td>
 
@@ -677,7 +703,7 @@ UNCTAD
 
 <td style="text-align:left;">
 
-1231
+1250
 
 </td>
 
@@ -699,7 +725,7 @@ Worldcam
 
 <td style="text-align:left;">
 
-1241
+1260
 
 </td>
 
@@ -721,7 +747,7 @@ Xing
 
 <td style="text-align:left;">
 
-1267
+1286
 
 </td>
 
@@ -742,6 +768,8 @@ Zanran
 </tbody>
 
 </table>
+
+-----
 
 ### Chequeo de duplicados (Enlaces)
 
@@ -798,7 +826,7 @@ Repeticiones
 
 <td style="text-align:left;">
 
-59
+44
 
 </td>
 
@@ -820,7 +848,7 @@ Repeticiones
 
 <td style="text-align:left;">
 
-127
+114
 
 </td>
 
@@ -842,7 +870,7 @@ Repeticiones
 
 <td style="text-align:left;">
 
-273
+263
 
 </td>
 
@@ -864,7 +892,7 @@ Repeticiones
 
 <td style="text-align:left;">
 
-317
+307
 
 </td>
 
@@ -886,7 +914,7 @@ Repeticiones
 
 <td style="text-align:left;">
 
-318
+308
 
 </td>
 
@@ -908,7 +936,7 @@ Repeticiones
 
 <td style="text-align:left;">
 
-322
+312
 
 </td>
 
@@ -930,7 +958,7 @@ Repeticiones
 
 <td style="text-align:left;">
 
-341
+331
 
 </td>
 
@@ -952,7 +980,7 @@ Repeticiones
 
 <td style="text-align:left;">
 
-351
+341
 
 </td>
 
@@ -974,7 +1002,7 @@ Repeticiones
 
 <td style="text-align:left;">
 
-547
+543
 
 </td>
 
@@ -996,7 +1024,7 @@ Repeticiones
 
 <td style="text-align:left;">
 
-555
+551
 
 </td>
 
@@ -1018,7 +1046,7 @@ Repeticiones
 
 <td style="text-align:left;">
 
-636
+635
 
 </td>
 
@@ -1084,7 +1112,7 @@ Repeticiones
 
 <td style="text-align:left;">
 
-843
+845
 
 </td>
 
@@ -1106,7 +1134,7 @@ Repeticiones
 
 <td style="text-align:left;">
 
-983
+993
 
 </td>
 
@@ -1128,7 +1156,7 @@ Repeticiones
 
 <td style="text-align:left;">
 
-1041
+1053
 
 </td>
 
@@ -1150,7 +1178,7 @@ Repeticiones
 
 <td style="text-align:left;">
 
-1044
+1057
 
 </td>
 
@@ -1172,7 +1200,7 @@ Repeticiones
 
 <td style="text-align:left;">
 
-1109
+1122
 
 </td>
 
@@ -1194,7 +1222,7 @@ Repeticiones
 
 <td style="text-align:left;">
 
-1123
+1138
 
 </td>
 
@@ -1216,7 +1244,7 @@ Repeticiones
 
 <td style="text-align:left;">
 
-1188
+1206
 
 </td>
 
@@ -1238,7 +1266,7 @@ Repeticiones
 
 <td style="text-align:left;">
 
-1189
+1207
 
 </td>
 
@@ -1260,7 +1288,7 @@ Repeticiones
 
 <td style="text-align:left;">
 
-1251
+1270
 
 </td>
 
